@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://maye696.github.io
-title: My Octopress Blog
+title: 非我的博客
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: 马野
 simple_search: http://google.com/search
 description:
 
@@ -85,11 +85,14 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: maye696
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+
+ 
