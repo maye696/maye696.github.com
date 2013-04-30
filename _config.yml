@@ -2,11 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://maye696.github.io
-title: 非我的博客
-subtitle: A blogging framework for hackers.
+url: http://mayecn.com
+title: 非我 
+subtitle: A wanna-be programmer.
 author: 马野
 simple_search: http://google.com/search
+
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -33,7 +34,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: rdiscount
+markdown: kramdown
 pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
@@ -45,7 +46,13 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+
+
+default_asides: [custom/asides/about.html, asides/recent_posts.html, asides/github.html]
+
+ 
+ 
+
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -58,41 +65,24 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
-github_repo_count: 0
-github_show_profile_link: true
-github_skip_forks: true
+# github_user: maye696
+# github_repo_count: 0
+# github_show_profile_link: true
+# github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: maye696
 twitter_tweet_button: true
 
-# Google +1
-google_plus_one: false
-google_plus_one_size: medium
+# Google Analytics
+google_analytics_tracking_id: UA-40381271-1
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: 117374676031373392953
 googleplus_hidden: false
 
-# Pinboard
-pinboard_user:
-pinboard_count: 3
-
-# Delicious
-delicious_user:
-delicious_count: 3
-
-# Disqus Comments
-disqus_short_name: maye696
-disqus_show_comment_count: true
-
-# Google Analytics
-google_analytics_tracking_id:
-
-# Facebook Like
-facebook_like: false
-
-
+weibo_share: true
  
+
+

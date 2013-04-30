@@ -1,0 +1,38 @@
+---
+layout: post
+title: "markdown的语法还真是令人蛋疼。。。"
+date: 2013-04-23 22:53
+comments: true
+categories: Coding 
+---
+
+ markdown的语法大致看了下，觉得还是不细究了。 怎么插入代码完全没有头绪。。。。
+
+    cd mayecn.com
+    rake new_post["markdown"]    //创建新文章
+    
+啊我突然懂了，代码要对齐。。。
+
+我再试试
+
+    插入代码
+    原来真的是这样
+
+
+如果上传图片能有个稳定的外链就好了
+
+
+<!--more--> 
+
+
+
+上传个本机图片试试
+
+
+
+  ![](\images\test1.jpg)
+
+
+ 
+
+恩 今天就这样。
